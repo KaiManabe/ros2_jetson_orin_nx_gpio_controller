@@ -77,7 +77,7 @@ class rosGpio(Node):
             self.pinObj[msg.number]["callback"] = None
         
     
-    def attachCallback(self, pin: int, func: function):
+    def attachCallback(self, pin: int, func):
         """INPUTモードとしたピンの入力が変わるたびに実行されるコールバックを割り当てる
             既にpinMode()が実行されたpinに対してのみ実行可能
         Args:
