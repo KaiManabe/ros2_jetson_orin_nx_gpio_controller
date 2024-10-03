@@ -48,7 +48,7 @@ source install/setup.bash
 
 4. 実行
 ```bash
-ros2 run jetsonOrinNX_gpio_controller jetsonOrinNX_gpio_controller
+ros2 run jetsonorinnx_gpio_controller jetsonorinnx_gpio_controller
 #↑別窓↓
 ros2 run gpio_sample sample
 ```
